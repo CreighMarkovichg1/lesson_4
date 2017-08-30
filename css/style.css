@@ -1,0 +1,72 @@
+/*
+COLORS:
+Green: #01B203
+Light Green: #8AFF8B
+Lime Green: #1AFF1D
+^(darker than light green)
+Dark Pink: #B20056
+Hot Pink: #FF007A
+*/
+
+body {
+    background-color: none;
+    color: #01B203;
+}
+
+#header {
+    width:100%;
+    background-color: none;
+    min-height: 80px;
+}
+
+#header > h1 {
+    margin:0;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    position: relative;
+    transform: translatey(50%);
+}
+
+#nav {
+    width:100%;
+    background-color: #01B203;
+    min-height: 80px;
+    font-family: "lato", sans-serif;
+    height: auto;
+}
+
+#nav > ul {
+    
+}
+.menu {
+    display:flex;
+    background-color:#dadbdc;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+
+#middle-wrapper {
+    display: flex;
+}
+
+#main-content-wrapper {
+    background-color: greenyellow;
+    width: 80%; 
+}
+
+#aside-content-wrapper {
+    background-color: plum;
+    width: 20%;
+}
+
+footer {
+    background-color: coral;
+    margin: 0;
+}
+
+footer > h1 {
+    margin: 0; 
+}
