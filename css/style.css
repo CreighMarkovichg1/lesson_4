@@ -168,18 +168,30 @@ body {
 }
 
 #favorite-sites{
-    background-image: url()
+    background-image: url(img/web_design_background.jpeg);
+    border-top:5px #01B203 solid;
+    border-bottom:5px #01B203 solid;
+}
+
+#favorite-sites > ul{
+   list-style-type:none;
+    display:flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 40px;
 }
 
 footer {
-    background-color: coral;
-    margin: 0;
+    background-color: white;
+   text-align: center;
+    font-family: 'lato', sans-serif;
+    min-height:100px
 }
 
 footer > h1 {
     margin: 0; 
+    transform: translatey(50%);
 }
-/*video 4_5 at 10:15*/
 
 
 
